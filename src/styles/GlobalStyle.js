@@ -65,8 +65,9 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    font-family: 'Nunito', sans-serif;
     font-size: 1.1rem;
+    font-family: 'Courier New', sans-serif;
+    ${'' /* font-family: 'Nunito', sans-serif; */}
     
 }
 
