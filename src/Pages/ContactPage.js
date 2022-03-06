@@ -4,6 +4,7 @@ import {MainLayout, InnerLayout} from '../styles/Layouts';
 import Title from '../Components/Title';
 import PrimaryButton from '../Components/PrimaryButton';
 import PhoneIcon from '@material-ui/icons/Phone';
+import WhatsApp from '@material-ui/icons/WhatsApp';
 import EmailIcon from '@material-ui/icons/Email';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import ContactItem from '../Components/ContactItem';
@@ -12,6 +13,8 @@ function ContactPage() {
     const phone = <PhoneIcon />
     const email = <EmailIcon />
     const location = <LocationOnIcon />
+    const whatsapp = <WhatsApp />
+
     return (
         <MainLayout>
             <Title title={'Contact'} span={'Contact'} />
@@ -44,9 +47,9 @@ function ContactPage() {
                     </form>
                 </div>
                 <div className="right-content">
-                    <ContactItem title={'Phone'} icon={phone} cont1={'+66-789675637'} cont2={'07663520283'} />
-                    <ContactItem title={'Email'} icon={email} cont1={'loremipsum@gmail.com'} cont2={'info.lorem.ipsum@gmail.com'} />
-                    <ContactItem title={'Address'} icon={location} cont1={'27 Aldrich Road, London, England'} cont2={'United Kingdom'} />
+                    <ContactItem title={'Phone/WhatsApp'} icon={whatsapp} cont1={'+55-71988630845'} cont2={''} />
+                    <ContactItem title={'Email'} icon={email} cont1={'esb@quarkscode.com.br'} cont2={'esbnet@gmail.com'} />
+                    <ContactItem title={'Address'} icon={location} cont1={'Rua A, 127 - Salvador/Bahia'} cont2={'Brazil'} />
                     
                 </div>
             </InnerLayout>

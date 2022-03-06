@@ -66,9 +66,7 @@ const GlobalStyle = createGlobalStyle`
     list-style: none;
     text-decoration: none;
     font-size: 1.1rem;
-    font-family: 'Courier New', sans-serif;
-    ${'' /* font-family: 'Nunito', sans-serif; */}
-    
+    font-family: 'Courier New', sans-serif;    
 }
 
 body{
@@ -128,7 +126,6 @@ h6{
     margin-bottom: 4rem;
 }
 
-
 //Floting Toggler
 .light-dark-mode{
     position: fixed;
@@ -173,8 +170,6 @@ h6{
 
 
 //Global Media Queries
-
-
 
 `;
 

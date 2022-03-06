@@ -20,7 +20,7 @@ function HomePage() {
                 <br/>
 				<p>
 					Sou desenvolvedor fullstack residente em Salvador/BA e PROGRAMAR é
-					minha paixão. Crio sites, desenvolvo aplicações web e mobile focado na
+					minha paixão. Crio sites, desenvolvo aplicações web e mobile com foco na
 					experiência do usuário e nas melhores práticas e padrões de
 					arquitetura e design.
 				</p>
@@ -57,7 +57,7 @@ const HomePageStyled = styled.header`
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
-		text-align: center;
+		text-align: justify;
 		width: 80%;
 
 		.icons {

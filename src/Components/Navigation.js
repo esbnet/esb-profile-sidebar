@@ -7,8 +7,9 @@ function Navigation() {
     return (
         <NavigationStyled>
             <div className="avatar">
-                <img src={avatar} alt=""/>
+                <img src={avatar} alt="Avatar" />
             </div>
+
             <ul className="nav-items">
                 <li className="nav-item">
                     <NavLink to="/" activeClassName="active-class" exact>Home</NavLink>
@@ -50,7 +51,7 @@ const NavigationStyled = styled.nav`
         text-align: center;
         padding: 1rem 0;
         img{
-            width: 70%;
+            width: 80%;
             border-radius: 50%;
             border: 8px solid var(--border-color);
         }
